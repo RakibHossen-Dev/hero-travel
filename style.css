@@ -139,3 +139,196 @@ select {
 .text-content li {
   margin-left: 30px;
 }
+
+/* Your Destination  */
+.Discounts-section img {
+  width: 100%;
+}
+.your-destination h3,
+.choose-title,
+.discount-title {
+  color: rgb(19, 19, 24);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.your-destination .destination-description,
+.choose-description,
+.discount-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 38px;
+}
+.your-destination img {
+  width: 100%;
+  height: 300px;
+  filter: brightness(80%);
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+.row-2 {
+  grid-template-columns: 0.8fr 1.5fr 0.7fr;
+}
+.row-3 {
+  grid-template-columns: 0.8fr 1.25fr;
+}
+.country-card {
+  position: relative;
+}
+.country {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 28px;
+  font-weight: 800;
+  transform: translate(-50%, -50%);
+}
+.choose-sevice {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.service {
+  width: 573px;
+  height: 284px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  border-radius: 16px;
+  background: rgba(251, 181, 99, 0.05);
+}
+.child {
+  width: 486px;
+  height: 220px;
+  margin: 2rem auto;
+}
+.child img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.child h4 {
+  color: rgb(19, 19, 24);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.child p {
+  color: rgb(90, 90, 93);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.World-Service {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  border-radius: 16px;
+  background: rgba(41, 206, 246, 0.05);
+}
+.Best-Price {
+  margin: 3rem auto;
+}
+/* Deals & Discounts */
+.Discounts-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.discount-card-one,
+.discount-card-three,
+.discount-card-two {
+  background-image: url(Images/Group\ 39.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.discount-card-two {
+  justify-content: start;
+  background-image: url(Images/Group\ 40.png);
+}
+.hero-time i {
+  color: rgb(255, 84, 0);
+}
+.hero-child,
+.hero-child-two {
+  width: 579px;
+  height: 389px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  backdrop-filter: blur(80%);
+  background: rgba(255, 255, 255, 0.8);
+  margin-right: 56px;
+}
+.hero-child-two {
+  margin-left: 56px;
+}
+.hero-child-container {
+  width: 452px;
+  height: 289px;
+  margin: 3rem auto;
+}
+.hero-child-container h3,
+.hero-child-container p {
+  text-align: left;
+}
+.hero-time {
+  color: rgb(90, 90, 93);
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+.hero-child-container h3 {
+  margin-top: 20px;
+  color: rgb(19, 19, 24);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.hero-child-container p {
+  color: rgb(90, 90, 93);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.hero-child-container .Price {
+  color: rgb(255, 84, 0);
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.book-now-btn {
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 800;
+}
+.see-all-btn {
+  text-align: center;
+}
+.see-all-btn button {
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  padding: 14px 22px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 60px;
+}
