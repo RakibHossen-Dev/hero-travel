@@ -548,7 +548,7 @@ input::placeholder {
   .hero-child-two {
     margin-right: 5%;
     margin-left: 5%;
-    padding: 10px;
+    /* padding: 10px; */
   }
   .perfect-place {
     flex-direction: column;
